@@ -1,0 +1,13 @@
+[package]
+name = "collaboflow-balus"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+collaboflow-rs = "0.0.9"
+dotenv = "0.15.0"
+serde_json = "1.0.89"
+tokio = "1.23.0"
