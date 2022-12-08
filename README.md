@@ -15,7 +15,7 @@ cp sample.env .env
 コラボフロー REST API を実行するために必要な情報を書き換えます。
 
 - `BASE_URL` : コラボフロー REST API の URL
-  - `https://{collaboflow url}/{instance name}/api/index.cfm/v1/` の形式で指定
+  - `https://{collaboflow url}/{instance name}/api/index.cfm` の形式で指定
 - `USER_ID` : 管理者のユーザーID
 - `API_KEY` : 発行した API キー
 
