@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.66"
-collaboflow-rs = "0.0.10"
+collaboflow-rs = "0.0.11"
 dotenv = "0.15.0"
 serde_json = "1.0.89"
 tokio = "1.23.0"
