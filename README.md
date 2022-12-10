@@ -16,10 +16,10 @@ cp sample.env .env
 
 - `BASE_URL` : コラボフロー REST API の URL
   - `https://{collaboflow url}/{instance name}/api/index.cfm` の形式で指定
-- `USER_ID` : 管理者のユーザーID
+- `USER_ID` : システム管理者のユーザーID
 - `API_KEY` : 発行した API キー
 
-`cargo` コマンドで実行します。（それ相応の覚悟の上で実行してください）
+`cargo` コマンドで実行します。（あと戻りはできません）
 
 ```shell
 cargo run
@@ -31,7 +31,9 @@ cargo run
 
 すべての申請書を削除します。実行しないことをおすすめします。
 
-削除した申請書を復元する方法はありません。
+**削除した申請書を元に戻すことは出来ません。**
+
+**全ユーザーの一覧からも削除され、検索もできなくなりますのでご注意ください。**
 
 ## License
 
